@@ -8,7 +8,7 @@ def high_light():
     test_img_names = read_lines('/hdd/cwh/pigs/test.list')
     all_dir_path = '/hdd/cwh/pigs/all'
     dense_dir_path = '/home/cwh/coding/ccnn'
-    high_light_path = 'train_dense_result'
+    high_light_path = 'test_dense_result'
     denses = list()
     dense_names = list()
     for dense_img_name in sorted(os.listdir(dense_dir_path)):
